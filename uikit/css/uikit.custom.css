@@ -18,22 +18,24 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-item: space-around;
+  align-items: center;
 }
 
-.Intro, .Picture{
+.Intro{
 
   font-size: 18px;
   line-height: 150%;
   font-family:'Open Sans';
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .Picture {
   height: 100%;
   width:auto;
   margin.bottom: 40px;
+  margin-left: 0px;
+  margin-right: 50px;
 }
 
 
