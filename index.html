@@ -6,14 +6,20 @@
   <link rel="stylesheet" href="uikit/css/uikit.custom.css"  />
   <link rel="stylesheet" href="uikit/css/components/slideshow.css" />
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
 </head>
 
 <body>
-  <div class="uk-background-cover">
-    <img src="img/cover.jpg"> </img>
-
+  <figure class="uk-overlay uk-overlay-hover">
+    <div class="uk-background-cover">
+      <img src="img/cover.jpg"> </img>
+    </div>
+    <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+        <h1 class="Title"> Junfei Yu | 飛魚</h1>
+    </figcaption>
+  </figure>
       <header class="uk-flex uk-flex-space-between uk-flex-middle">
-        </div>
           <div>
             <nav class="uk-navbar">
                 <div class="uk-container uk-container-center">
@@ -44,9 +50,9 @@
                 </div>
               </div>
           </div>
+        </header>
+    </div>
 
-    </header>
-</div>
 
 
   <main>
@@ -89,6 +95,23 @@
     <li data-uk-slideshow-item="5"><a href=""></a></li>
   </ul>
 </div>
+
+<div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">
+  <ul class="uk-slideshow uk-slideshow-fullscreen">
+    <li> <img src="img/gif1.gif" alt="test" uk-cover> </li>
+    <li> <img src="img/gif2.gif" alt="test" uk-cover> </li>
+    <li> <img src="img/gif3.gif" alt="test" uk-cover height="50%"> </li>
+  </ul>
+
+  <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+  <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+  <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+    <li data-uk-slideshow-item="0"><a href=""></a></li>
+    <li data-uk-slideshow-item="1"><a href=""></a></li>
+    <li data-uk-slideshow-item="2"><a href=""></a></li>
+  </ul>
+</div>
+
     <div> <!-- Container -->
       <div>
         <a href="#"><img src=""></a>

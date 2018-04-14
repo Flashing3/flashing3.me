@@ -53,7 +53,11 @@ body {
 
 
 
-
+.Title{
+  font-size: 150px;
+  font-family: 'Stylish', sans-serif;
+  font-weight: light;
+}
 
 .bottom_footer {
 
@@ -94,6 +98,11 @@ body {
     margin-left: 0px;
     margin-right: 30px;
     justify-content: left;
+  }
+
+  .Title {
+    font-size: 400%;
+    line-height: 100%;
   }
 
 }
