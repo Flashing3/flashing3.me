@@ -59,6 +59,20 @@ body {
   font-family: : 'Open Sans';
 }
 
+@media only screen and (max-width: 1200px) {
+  .Junfei {
+    flex-direction: column;
+
+  }
+  .uk-navbar {
+    justify-content: center;
+  }
+  .Intro {
+      font-size: 200%;
+  }
+
+}
+
 a {
   background: transparent;
 }
