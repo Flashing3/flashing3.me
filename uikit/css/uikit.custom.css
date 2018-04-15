@@ -86,8 +86,9 @@ body {
   .uk-navbar {
     justify-content: center;
   }
-  .Intro {
-      font-size: 150%;
+  .Intro p{
+      font-size: 200%;
+      line-height: 140%;
       margin-left: 30px;
       margin-right: 30px;
   }
