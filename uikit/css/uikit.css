@@ -7,6 +7,7 @@
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  * 3. Style
  */
+
 html {
   /* 1 */
   font: normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
